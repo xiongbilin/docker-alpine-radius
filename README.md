@@ -12,7 +12,7 @@ Lightweight and fast Freeradius3 v3.0.11-r0 server. This image is based on the m
    -e DEVICE_SECRET=SECRET \
    -e USERNAME=testing \
    -e PASSWORD=password \
-   marcelmaatkamp/freeradius
+   xiongbilin/freeradius
 ```
 
 Once the image is started with the previous settings, one can test it with username 'testing' and password 'password' on device '192.168.1.18' and secret 'SECRET' in the following way:
